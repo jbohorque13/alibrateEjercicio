@@ -83,9 +83,9 @@ class App extends Component {
           <Provider store={store}>
             <View style={{flex: 1, backgroundColor: '#fff'}}>
                 <Header>
-                  <Left style={{width:'40%'}}>
+                  <Left style={{width:'50%'}}>
                     <Button transparent onPress={this.closeSession.bind(this)}>
-                      <Text style={{color:'white'}}> Salir </Text>
+                      <Text style={{color:'black'}}> Salir </Text>
                     </Button>
                   </Left>
                   <Body>
